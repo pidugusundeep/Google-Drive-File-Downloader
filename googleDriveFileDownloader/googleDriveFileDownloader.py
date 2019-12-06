@@ -10,7 +10,6 @@ class googleDriveFileDownloader():
     def downloadFile(self,url):
         if(url.startswith("https://drive.google.com/uc")):
             print("Download is starting")
-
             URL = url
             r = requests.get(URL) 
 
