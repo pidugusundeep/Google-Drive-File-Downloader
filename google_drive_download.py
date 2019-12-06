@@ -24,7 +24,7 @@ def downloadFile(url):
 
         print("before")
 
-        url = 'wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=0BzQ6rtO2VN95cmNuc2xwUS1wdEE" -O- | sed -rn "s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p")&id=0BzQ6rtO2VN95cmNuc2xwUS1wdEE" -O cnn_stories_tokenized.zip && rm -rf /tmp/cookies.txt'
+        url = r'wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=0BzQ6rtO2VN95cmNuc2xwUS1wdEE" -O- | sed -rn "s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p")&id=0BzQ6rtO2VN95cmNuc2xwUS1wdEE" -O cnn_stories_tokenized.zip && rm -rf /tmp/cookies.txt'
 
         os.system(url)
 
@@ -42,8 +42,6 @@ def downloadFile(url):
         FileName = soup.select('title')
 
         print(FileName[0].text.split(' - Google Drive')[0])
-
-       
 
 
         filename = wget.download(url)
