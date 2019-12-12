@@ -1,6 +1,6 @@
 # Google-Drive-File-Downloader
-Google Drive File Downloader
 
+<a href="https://pypi.org/project/googledrivefiledownloader/" alt="Google-Drive-File-Downloader"> <img src="https://img.shields.io/pypi/dm/image-quality?color=blue" /></a>
 
 Helps to download google drive files with ease 🎉
 
