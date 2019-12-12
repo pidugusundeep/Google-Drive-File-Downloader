@@ -4,6 +4,9 @@
 
 Helps to download google drive files with ease 🎉
 
+Installing the Package:
+
+`pip install googleDriveFileDownloader`
 
 Sample code:
 
