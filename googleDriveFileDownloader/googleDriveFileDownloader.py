@@ -15,7 +15,7 @@ class googleDriveFileDownloader():
 
             Fileid = URL.split("=")[1].split("&")[0]
 
-            soup = BeautifulSoup(r.content, 'html5lib') 
+            soup = BeautifulSoup(r.content, 'html.parser') 
 
             FileName = soup.select('.uc-name-size')
 
