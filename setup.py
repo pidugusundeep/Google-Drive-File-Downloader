@@ -18,7 +18,7 @@ URL = 'http://pidugusundeep.in'
 EMAIL = 'pidugusundeep5@gmail.com'
 AUTHOR = 'PIDUGU SUNDEEP'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.3'
+VERSION = '1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

@@ -16,4 +16,9 @@ gdownloader = googleDriveFileDownloader()
 gdownloader.downloadFile("https://drive.google.com/uc?id=1O4x8rwGJAh8gRo8sjm0kuKFf6vCEm93G&export=download")
 ```
 
-* It will automatically save the file with the name as stored in the drive
+You can also provide `custom file name` : 
+```python
+gdownloader.downloadFile("https://drive.google.com/uc?id=1O4x8rwGJAh8gRo8sjm0kuKFf6vCEm93G&export=download","NewFile.zip") #Make sure to provide the custom file name along with the file extension if exists
+```
+
+* It will automatically save the file in your local directory with the name as stored in the drive or as provided in the custom file name 
